@@ -1,7 +1,7 @@
 import WorkItem from "./WorkItem";
 // import { data } from "../../types/types";
 
-const data: any = [
+const data = [
   {
     year: 2023,
     company: "Digital TownSq",
@@ -15,7 +15,7 @@ const Work = () => {
   return (
     <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-[#001b5e]">Work</h1>
-      {data.map((item:any, idx:any) => (
+      {data.map((item, idx) => (
         <WorkItem
           key={idx}
           year={item.year}

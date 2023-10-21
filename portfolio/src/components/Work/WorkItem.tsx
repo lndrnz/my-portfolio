@@ -1,4 +1,6 @@
-const WorkItem = ({ year, company, title, duration, details }) => {
+import { WorkItemProp } from "../../types/types";
+
+const WorkItem = ({ year, company, title, duration, details }: WorkItemProp) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
       <li className="mb-10 ml-4">

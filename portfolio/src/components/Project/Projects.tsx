@@ -5,6 +5,7 @@ import digitaltownsq from "../../assets/digitaltownsq.jpeg";
 import taskmanager from "../../assets/taskmanager.jpeg";
 import yoovies from "../../assets/yoovies.jpeg";
 
+
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">

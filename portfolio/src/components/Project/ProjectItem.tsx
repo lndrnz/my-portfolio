@@ -1,4 +1,6 @@
-const ProjectItem = ({ img, title, link}) => {
+import { ProjectItemProps } from "../../types/types";
+
+const ProjectItem:React.FC<ProjectItemProps> = ({ img, title, link}) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e]">
       <img src={img} alt="/" className="rounded-xl group-hover:opacity-10" />
