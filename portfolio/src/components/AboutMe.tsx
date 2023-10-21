@@ -1,3 +1,5 @@
+import LanderNunezResume from "./../assets/LanderNunezResume.pdf";
+
 const AboutMe = () => {
   return (
     <div id="aboutme" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
@@ -20,6 +22,7 @@ const AboutMe = () => {
         a Software Developer and would love the chance to contribute my skills
         to your team.
       </p>
+      <p className="text-left py-4 text-base font-normal text-stone-500">Here's a <a className="text-[#001b5e] underline" href={LanderNunezResume} target="_blank" rel="noopener noreferrer">link</a> to my resume!</p>
     </div>
   );
 };
