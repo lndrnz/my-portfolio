@@ -5,10 +5,10 @@ const data: any = [
   {
     year: 2023,
     company: "Digital TownSq",
-    title: "Contract Full Stack Engineer",
+    title: "Full Stack Engineer Intern",
     duration: "June - October 2023",
-    details:
-      "News app showcasing real-time US headlines, optimized for user discussion and interaction.",
+      details: "News app showcasing real-time US headlines, optimized for user discussion and interaction."
+    
   },
 ];
 const Work = () => {
