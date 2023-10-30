@@ -1,12 +1,13 @@
 import { TypeAnimation } from "react-type-animation";
 import profile from "./../assets/profile.jpeg";
+import Background from "./../assets/Background.jpeg";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left"
-        src="https://images.pexels.com/photos/2157685/pexels-photo-2157685.jpeg"
+        src={Background}
       ></img>
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
@@ -19,15 +20,13 @@ const Main = () => {
               sequence={[
                 "Software Engineer",
                 2000,
-                "Full Stack Developer",
+                "Full-Stack Developer",
                 2000,
                 "Designer",
                 2000,
                 "Problem Solver",
                 2000,
-                "Photographer",
-                1000,
-                "Marathon Runner",
+                "Tech Enthusiast",
                 1000,
               ]}
               wrapper="span"
