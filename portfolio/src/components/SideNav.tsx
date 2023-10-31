@@ -7,7 +7,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { GrProjects, GrDocumentText } from "react-icons/gr";
+import { GrDocumentText } from "react-icons/gr";
 
 const SideNav = () => {
   const [nav, setNav] = useState<boolean>(false);
@@ -39,14 +39,14 @@ const SideNav = () => {
             <BsPerson size={20} />
             <span className="pl-4">About Me</span>
           </a>
-          <a
+          {/* <a
             onClick={handleNav}
             href="#work"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <GrProjects size={20} />
             <span className="pl-4">Work</span>
-          </a>
+          </a> */}
           <a
             onClick={handleNav}
             href="#projects"
@@ -81,25 +81,25 @@ const SideNav = () => {
         <div className="flex flex-col">
           <a
             href="#main"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="text-xs rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineHome size={30} />
           </a>
           <a
             href="#aboutme"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="text-xs rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <BsPerson size={30} />
           </a>
-          <a
+          {/* <a
             href="#work"
             className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <GrProjects size={30} />
-          </a>
+          </a> */}
           <a
             href="#projects"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="text-xs rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineProject size={30} />
           </a>
@@ -107,13 +107,13 @@ const SideNav = () => {
             href={LanderNunezResume}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="text-xs rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <GrDocumentText size={30} />
           </a>
           <a
             href="#contact"
-            className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
+            className="text-xs rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
             <AiOutlineMail size={30} />
           </a>
