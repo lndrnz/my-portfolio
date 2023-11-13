@@ -18,7 +18,7 @@ const SideNav = () => {
   return (
     <div>
       <AiOutlineMenu
-        className="fixed top-4 right-4 z-[99] cursor-pointer md:hidden"
+        className="fixed top-4 right-4 z-[99] cursor-pointer md:hidden dark:text-white"
         onClick={handleNav}
       />
       {nav ? (
