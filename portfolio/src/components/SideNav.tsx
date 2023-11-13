@@ -7,7 +7,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { GrDocumentText } from "react-icons/gr";
+import { FaRegFileAlt } from "react-icons/fa";
 
 const SideNav = () => {
   const [nav, setNav] = useState<boolean>(false);
@@ -62,7 +62,7 @@ const SideNav = () => {
             rel="noopener noreferrer"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <GrDocumentText size={20} />
+            <FaRegFileAlt size={20} />
             <span className="pl-4">Resume</span>
           </a>
           <a
@@ -109,7 +109,7 @@ const SideNav = () => {
             rel="noopener noreferrer"
             className="text-xs rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            <GrDocumentText size={30} />
+            <FaRegFileAlt size={30} />
           </a>
           <a
             href="#contact"

@@ -9,11 +9,11 @@ import yoovies from "../../assets/yoovies.jpeg";
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+      <h1 className="text-4xl font-bold text-center text-[#001b5e] dark:text-white">
         Software Engineering Projects
       </h1>
       <p className="flex justify-center text-center py-8 font-bold">
-        <a className="flex justify "href="https://github.com/lndrnz">
+        <a className="flex justify dark:text-white "href="https://github.com/lndrnz">
           My GitHub
           <FaGithub size={25} />
         </a>
