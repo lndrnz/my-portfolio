@@ -19,13 +19,13 @@ const Main = () => {
             className="rounded-full border-solid border-2 border-slate-200 "
             alt="Profile Picture of Lander Nunez"
           ></img>
-          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800 dark:text-white">
+          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800 dark:text-neutral-50">
             Lander Nunez
           </h1>
-          <p className="text-left text-lg py-4  font-normal text-gray-800 dark:text-white">
+          <p className="text-left text-lg py-4  font-normal text-gray-800 dark:text-neutral-50">
             Python | JavaScript | React | Node | Django | MongoDB | PostgreSQL
           </p>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 dark:text-white">
+          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 dark:text-neutral-50">
             <TypeAnimation
               sequence={[
                 "Software Engineer",
@@ -47,14 +47,14 @@ const Main = () => {
             <a
               href="https://www.linkedin.com/in/lndrnz/"
               target="_blank"
-              className="cursor-pointer dark:text-white"
+              className="cursor-pointer dark:text-neutral-50"
             >
               <FaLinkedinIn size={40} />
             </a>
             <a
               href="https://github.com/lndrnz"
               target="_blank"
-              className="cursor-pointer dark:text-white"
+              className="cursor-pointer dark:text-neutral-50"
             >
               <FaGithub size={40} />
             </a>
@@ -62,7 +62,7 @@ const Main = () => {
               href={LanderNunezResume}
               target="_blank"
               rel="noopener noreferrer"
-              className="dark:text-white"
+              className="dark:text-neutral-50"
             >
               <FaRegFileAlt size={40} />
             </a>
