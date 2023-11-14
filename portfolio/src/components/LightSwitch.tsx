@@ -9,7 +9,6 @@ const LightSwitch = () => {
   const handleDark = () => {
     setIsDark(!isDark);
     localStorage.setItem("darkMode", JSON.stringify(!isDark));
-    console.log(localStorage)
   };
 
   if (isDark) {
