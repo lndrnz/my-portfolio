@@ -22,20 +22,20 @@ const Main = () => {
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800 dark:text-neutral-50">
             Lander Nunez
           </h1>
-          <p className="text-left text-lg py-4  font-normal text-gray-800 dark:text-neutral-50">
-            Python | JavaScript | React | Node | Django | MongoDB | PostgreSQL
+          <p className="sm:text-sm md:text-lg lg:text-xl py-4 text-left font-normal text-gray-800 dark:text-neutral-50">
+            Python | JavaScript | React | Node | Django | MongoDB | SQL
           </p>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 dark:text-neutral-50">
+          <h2 className="flex sm:text-2xl text-2xl pt-4 text-gray-800 dark:text-neutral-50">
             <TypeAnimation
               sequence={[
                 "Software Engineer",
                 2000,
-                "Full-Stack Developer",
+                "Full-Stack Engineer",
                 2000,
                 "Problem Solver",
                 2000,
-                "Front-End Developer",
-                1000,
+                "Front-End Engineer",
+                2000,
               ]}
               wrapper="span"
               speed={50}
