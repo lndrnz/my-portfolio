@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div id="main">
       <img
-        className="w-full h-screen object-cover object-left"
+        className="w-full bg-fixed h-screen object-cover object-left"
         src={Background}
       ></img>
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50 dark:bg-transparent ">
