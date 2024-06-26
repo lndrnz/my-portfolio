@@ -23,7 +23,7 @@ const Main = () => {
             Lander Nunez
           </h1>
           <p className="sm:text-sm md:text-lg lg:text-xl py-4 text-left font-normal text-gray-800 dark:text-neutral-50">
-            Python | JavaScript | React | Node | Django | MongoDB | SQL
+            Python | JavaScript/TypeScript | React | Node | Django | MongoDB | SQL
           </p>
           <h2 className="flex sm:text-2xl text-2xl pt-4 text-gray-800 dark:text-neutral-50">
             <TypeAnimation
