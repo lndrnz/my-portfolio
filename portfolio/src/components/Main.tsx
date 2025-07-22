@@ -56,14 +56,14 @@ const Main = () => {
             >
               <FaGithub size={40} />
             </a>
-            <a
+            {/* <a
               href={LanderNunezResume}
               target="_blank"
               rel="noopener noreferrer"
               className="dark:text-neutral-50"
             >
               <FaRegFileAlt size={40} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
