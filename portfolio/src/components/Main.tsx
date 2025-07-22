@@ -1,8 +1,8 @@
 import { TypeAnimation } from "react-type-animation";
 import profile from "./../assets/profile.jpeg";
 import Background from "./../assets/Background.jpeg";
-import { FaLinkedinIn, FaGithub, FaRegFileAlt } from "react-icons/fa";
-import LanderNunezResume from "./../assets/LanderNunezResume.pdf";
+import { FaLinkedinIn, FaGithub} from "react-icons/fa"; //FaRegFileAlt 
+// import LanderNunezResume from "./../assets/LanderNunezResume.pdf";
 const Main = () => {
   return (
     <div id="main">

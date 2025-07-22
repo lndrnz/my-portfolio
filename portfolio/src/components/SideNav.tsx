@@ -7,7 +7,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { FaRegFileAlt } from "react-icons/fa";
+// import { FaRegFileAlt } from "react-icons/fa";
 
 const SideNav = () => {
   const [nav, setNav] = useState<boolean>(false);
